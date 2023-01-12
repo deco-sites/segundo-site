@@ -13,7 +13,7 @@ export default {
         primary: "#2FD180",
         "primary-dark": "#003232",
         "primary-light": "#C5FFE9",
-        "primary-bg": "#0590D6",
+        "primary-blue": "#0590D6",
         transparent: "transparent",
       },
       fontFamily: {

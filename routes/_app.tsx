@@ -6,12 +6,12 @@ const trackingId = "";
 
 export default function App(props: AppProps) {
   return (
-    <>
+    <div class="bg-red-900 h-72">
       {/* Add Tag Manager script during production only. To test it locally remove the condition */}
       {!!context.deploymentId && trackingId && (
         <GoogleTagManager trackingId={trackingId} />
       )}
       <props.Component />
-    </>
+    </div>
   );
 }
