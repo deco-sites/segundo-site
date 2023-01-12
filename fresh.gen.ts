@@ -9,11 +9,9 @@ import * as $1 from "./routes/_app.tsx";
 import * as $2 from "./routes/_middleware.ts";
 import * as $3 from "./routes/index.tsx";
 import * as $$0 from "./islands/LiveControls.tsx";
-import * as $$$0 from "./sections/GetStarted.tsx";
-import * as $$$1 from "./sections/Head.tsx";
-import * as $$$2 from "./sections/Informacoes.tsx";
-import * as $$$3 from "./sections/Markdown.tsx";
-import * as $$$4 from "./sections/QuillText.tsx";
+import * as $$$0 from "./sections/Informacoes.tsx";
+import * as $$$1 from "./sections/Markdown.tsx";
+import * as $$$2 from "./sections/QuillText.tsx";
 import * as $$$$0 from "./functions/LoadGitHubRaw.ts";
 
 const manifest: DecoManifest = {
@@ -25,80 +23,12 @@ const manifest: DecoManifest = {
   },
   islands: { "./islands/LiveControls.tsx": $$0 },
   sections: {
-    "./sections/GetStarted.tsx": $$$0,
-    "./sections/Head.tsx": $$$1,
-    "./sections/Informacoes.tsx": $$$2,
-    "./sections/Markdown.tsx": $$$3,
-    "./sections/QuillText.tsx": $$$4,
+    "./sections/Informacoes.tsx": $$$0,
+    "./sections/Markdown.tsx": $$$1,
+    "./sections/QuillText.tsx": $$$2,
   },
   functions: { "./functions/LoadGitHubRaw.ts": $$$$0 },
   schemas: {
-    "./sections/GetStarted.tsx": {
-      "inputSchema": {
-        "title": " Get Started",
-        "type": "object",
-        "properties": {
-          "enableInspectVSCode": {
-            "type": [
-              "boolean",
-              "null",
-            ],
-            "title": "Enable Inspect V S Code",
-          },
-        },
-        "required": [],
-      },
-      "outputSchema": null,
-    },
-    "./sections/Head.tsx": {
-      "inputSchema": {
-        "title": " Head",
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string",
-            "title": "Title",
-          },
-          "description": {
-            "type": "string",
-            "title": "Description",
-          },
-          "url": {
-            "type": "string",
-            "title": "Url",
-          },
-          "imageUrl": {
-            "type": "string",
-            "title": "Image Url",
-          },
-          "faviconUrl": {
-            "type": "string",
-            "title": "Favicon Url",
-          },
-          "styleUrls": {
-            "type": "array",
-            "items": {
-              "type": "string",
-            },
-            "title": "Style Urls",
-          },
-          "themeColor": {
-            "type": "string",
-            "title": "Theme Color",
-          },
-        },
-        "required": [
-          "title",
-          "description",
-          "url",
-          "imageUrl",
-          "faviconUrl",
-          "styleUrls",
-          "themeColor",
-        ],
-      },
-      "outputSchema": null,
-    },
     "./sections/Informacoes.tsx": {
       "inputSchema": {
         "title": " Informacoes",
